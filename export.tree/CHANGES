@@ -1,7 +1,0 @@
-1.0.0 2024-05-10
-  - Initial release
-
-2.0.0 2025-07-27
-  - Reanalysis using the LCModel fitting algorithm embedded in Osprey
-2.1.0 2025-07-27
-  - Updated OpenNeuro data repository (ds005371)
