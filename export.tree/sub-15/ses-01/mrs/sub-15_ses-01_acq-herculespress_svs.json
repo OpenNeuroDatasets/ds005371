@@ -1,0 +1,62 @@
+{
+	"InstitutionName":"Weill Cornell Medicine",
+	"InstitutionAddress":"1300 York Avenue, New York, NY 10065",
+	"Manufacturer":"GE",
+	"ManufacturersModelName":"Discovery MR750",
+	"SoftwareVersions":"DV26.0_R01_1725.a",
+	"MagneticFieldStrength":3,
+	"NumberReceiveCoilActiveElements":32,
+	"PulseSequenceType":"HERCULES-PRESS",
+	"ScanningSequence":"SVS",
+	"WaterSuppression":true,
+	"WaterSuppressionTechnique":"CHESS",
+	"OuterVolumeSuppression":true,
+	"B0ShimmingTechnique":"Double-echo GRE",
+	"BodyPart":"Brain",
+	"BodyPartDetails":"Medial parietal lobe",
+	"ResonantNucleus":[
+		"1H"
+	],
+	"SpectrometerFrequency":127.77,
+	"SpectralWidth":5000,
+	"EchoTime":0.082,
+	"NumberOfSpectralPoints":4096,
+	"AcquisitionVoxelSize":[30,30,30],
+	"ReferenceSignal":"bids::sub-15/ses-01/mrs/sub-15_ses-01_acq-herculespress_mrsref.nii.gz",
+	"RepetitionTime":2,
+	"NumberOfTransients":224,
+	"AnatomicalImage":"bids::sub-15/ses-01/anat/sub-15_ses-01_T1w.nii",
+	"EditTarget":[
+		"Asc",
+		"Asp",
+		"GABA",
+		"GSH",
+		"Lac",
+		"NAA",
+		"NAAG"
+	],
+	"EditPulse":{
+		"A":{
+			"FrequencyOffset":[1.9,4.58],
+			"PulseDuration":20
+		},
+		"B":{
+			"FrequencyOffset":[1.9,4.18],
+			"PulseDuration":20
+		},
+		"C":{
+			"FrequencyOffset":[4.58,4.58],
+			"PulseDuration":20
+		},
+		"D":{
+			"FrequencyOffset":[4.18,4.18],
+			"PulseDuration":20
+		}
+	},
+	"EditCondition":[
+		"A",
+		"B",
+		"C",
+		"D"
+	]
+}

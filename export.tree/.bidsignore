@@ -1,0 +1,9 @@
+*_svs*
+*_mrsref*
+./*mrs/*
+*.m
+*basis_sets*
+*.mat
+./derivatives/output/
+./derivatives/Gannet_output/
+.DS_Store
